@@ -6,9 +6,12 @@
     //min-height: 500px;
     font-weight: 100;
     color: white;
+    position: relative;
+    z-index: -1;
 }
 
 .my-name , .dev-text {
+    z-index: 0;
     font-weight: 100; 
     text-align: center;
     margin: 0;
@@ -78,8 +81,17 @@
 
 @media only screen and (max-width : 415px) {
     .my-name{
-        font-size: 3rem;
+        font-size: 3.5rem;
         line-height: 5rem;
+    }
+    .dev-text {
+        font-size: 2.2rem;        
+    }
+}
+
+@media only screen and (max-width : 365px) {
+    .my-name{
+        font-size: 3rem;
     }
     .dev-text {
         font-size: 2rem;        
