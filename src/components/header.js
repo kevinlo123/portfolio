@@ -4,7 +4,6 @@ import '../styles/css/header.css';
 class Header extends Component {
 
     showNav(){
-        const navMobile = document.getElementsByClassName("header-compact-nav-mobile")[0];
         const blackOverLay = document.getElementsByClassName("black-overlay")[0];
         const hamburgerMenu = document.getElementById("mobile-nav-icon");
         const mobileNavItems = document.getElementsByTagName("ul")[1];

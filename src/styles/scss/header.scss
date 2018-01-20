@@ -1,9 +1,9 @@
 .portfolio-header {
     font-weight: 100;
     height: 5rem;
-    //box-shadow: 0 0 10px 2px; 
     position: fixed;   
     width: 100%;
+    z-index: 1;
 }
 
 a.fa-anchor::before {
