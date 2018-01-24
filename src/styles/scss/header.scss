@@ -155,12 +155,13 @@ a.fa-anchor::before {
         animation-delay: 275ms;        
     }
     &:nth-of-type(3){
-        animation-delay: 375ms;
-        
+        animation-delay: 375ms; 
     }
     &:nth-of-type(4){
         animation-delay: 375ms;
-        
+    }
+    &:nth-of-type(5){
+        animation-delay: 375ms;
     }
 }
 

@@ -1,0 +1,19 @@
+.projects-container{
+    display: flex;
+    background: #f8f8f8;
+    flex-direction: column;
+    padding: 3.5rem;
+    .top-row-projects , .bottom-row-projects{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .project{
+        margin: 1rem 1rem;
+        height: 15rem;
+        width: 250px;
+        border: 1px solid black;
+    }
+}
+

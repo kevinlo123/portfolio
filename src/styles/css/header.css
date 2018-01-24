@@ -132,6 +132,8 @@ a.fa-anchor::before {
     animation-delay: 375ms; }
   .mobile-nav-items:nth-of-type(4) {
     animation-delay: 375ms; }
+  .mobile-nav-items:nth-of-type(5) {
+    animation-delay: 375ms; }
 
 .list-item-anchor-mobile {
   color: #ff003b;

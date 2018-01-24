@@ -27,6 +27,7 @@ class Header extends Component {
                 <ul className="nav-unordered-list">
                     <li className="nav-list-item"><a href="#" className="list-item-anchor">About</a></li>
                     <li className="nav-list-item"><a href="#" className="list-item-anchor">Projects</a></li>
+                    <li className="nav-list-item"><a href="#" className="list-item-anchor">Skills</a></li>
                     <li className="nav-list-item"><a href="#" className="list-item-anchor">Contact</a></li>
                 </ul>
             </nav>
@@ -41,6 +42,7 @@ class Header extends Component {
                         <li className="mobile-nav-items"><a href="#" className="list-item-anchor-mobile">Home</a></li>
                         <li className="mobile-nav-items"><a href="#" className="list-item-anchor-mobile">About</a></li>
                         <li className="mobile-nav-items"><a href="#" className="list-item-anchor-mobile">Projects</a></li>
+                        <li className="mobile-nav-items"><a href="#" className="list-item-anchor-mobile">Skills</a></li>
                         <li className="mobile-nav-items"><a href="#" className="list-item-anchor-mobile">Contact</a></li>
                     </ul>
                     <div className="black-overlay"></div>
