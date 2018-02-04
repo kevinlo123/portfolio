@@ -4,6 +4,8 @@ import HeroBanner from './hero-banner'
 import About from './about';
 import Resume from './resume';
 import Projects from './projects';
+import resume from '../resume/RESUME.pdf';
+
 
 class Portfolio extends Component {
     render(){
@@ -17,7 +19,7 @@ class Portfolio extends Component {
                     <About />
                 </section>
                 <section className="resume-wrapper">
-                    <Resume />
+                    <Resume resumePDF={resume}/>
                 </section>
                 <section className="projects-wrapper">
                     <Projects />

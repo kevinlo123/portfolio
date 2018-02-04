@@ -15,7 +15,7 @@ class Resume extends Component {
         return(
             <div className="resume-container">
                 <button onMouseEnter={this.makeRed} onMouseLeave={this.makeWhite} className="resume-button">
-                    <a className="resume-link" href="./RESUME.pdf">Resume</a>
+                    <a className="resume-link" href={this.props.resumePDF} target="_blank">Resume</a>
                 </button>
             </div>
         );
