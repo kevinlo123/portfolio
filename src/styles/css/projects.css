@@ -2,7 +2,8 @@
   display: flex;
   background: #f8f8f8;
   flex-direction: column;
-  padding: 3.5rem; }
+  padding: 3.5rem;
+  border-top: 1px solid lightgrey; }
   .projects-container .top-row-projects, .projects-container .bottom-row-projects {
     display: flex;
     flex-direction: row;

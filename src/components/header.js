@@ -19,6 +19,19 @@ class Header extends Component {
         }
     }
 
+    componentDidMount(){
+        window.addEventListener('scroll', function() {
+            let scrollposition = window.scrollY;            
+            const navigation = document.getElementsByClassName("portfolio-nav")[0];
+            if(scrollposition > 620){
+                navigation.classList.add("nav-background");
+            }
+            else {
+                navigation.classList.remove("nav-background");
+            }
+        });
+    }
+
     render() {
         return (
         <header className="portfolio-header">
