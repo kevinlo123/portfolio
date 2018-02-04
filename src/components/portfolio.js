@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../styles/css/hero-banner.css';
 import Header from './header';
 import HeroBanner from './hero-banner'
 import About from './about';
