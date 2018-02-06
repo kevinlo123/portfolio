@@ -3,18 +3,26 @@
     background: #f8f8f8;
     flex-direction: column;
     padding: 3.5rem;
-    border-top: 1px solid lightgrey;    
+    border-top: 1px solid lightgrey;
     .top-row-projects , .bottom-row-projects{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
-    
+
     .project{
         margin: 1rem 1rem;
         height: 15rem;
-        width: 250px;
+        width: 38%;
         border: 1px solid black;
     }
 }
 
+.top-row-projects{
+    .pomodoro {
+        height: inherit;
+        width: 100%;
+        overflow: hidden;
+        transition: 0.6s ease;       
+    }
+}

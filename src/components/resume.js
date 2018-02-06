@@ -4,19 +4,17 @@ import '../styles/scss/resume.scss';
 class Resume extends Component {
 
     makeRed(){
-        document.getElementsByClassName("resume-link")[0].style.color = "#ff003b";
+        document.getElementsByClassName("resume-button")[0].style.color = "#ff003b";
     }
 
     makeWhite(){
-        document.getElementsByClassName("resume-link")[0].style.color = "#fff";
+        document.getElementsByClassName("resume-button")[0].style.color = "#fff";
     }
 
     render(){
         return(
             <div className="resume-container">
-                <button onMouseEnter={this.makeRed} onMouseLeave={this.makeWhite} className="resume-button">
-                    <a className="resume-link" href={this.props.resumePDF} target="_blank">Resume</a>
-                </button>
+                <a onMouseEnter={this.makeRed} onMouseLeave={this.makeWhite} className="resume-button" href={this.props.resumePDF} target="_blank">Resume</a>
             </div>
         );
     }
