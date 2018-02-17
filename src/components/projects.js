@@ -1,24 +1,32 @@
 import React, { Component } from 'react';
-import pomodoro from '../images/pomodoro.png';
 import '../styles/scss/projects.scss';
 
 class Projects extends Component {
     render(){
         return(
             <div className="projects-container">
-                <div className="top-row-projects">
-                    <div className="project">
-                        <img src={pomodoro} alt="pomodoro" className="pomodoro"/>
-                    </div>
-                    <div className="project"></div>
-                    <div className="project"></div>
-                    <div className="project"></div>
-                </div>
-                <div className="bottom-row-projects">
-                    <div className="project"></div>
-                    <div className="project"></div>
-                    <div className="project"></div>
-                    <div className="project"></div>
+                <h1 className="projects-text">Latest Projects</h1>
+                <div id="menu">
+                    <a href="https://kevinlo123.github.io/Pomodoro-clock/pomodoro.html">
+                        <div class="pomodoro zoomimg"></div>
+                    </a>
+                    <a href="https://kevinlo123.github.io/jquery-weather-app/weather.html">
+                        <div class="weatherApp zoomimg"></div>
+                    </a>
+                    <a href="https://kevinlo123.github.io/Quote-app/quoteApp.html">
+                        <div class="quoteApp zoomimg"></div>
+                    </a>
+                    <a href="https://kevinlo123.github.io/Rock-Papers-Scissors/rps.html">
+                        <div class="rps zoomimg"></div>
+                    </a>
+                    <a href="https://kevinlo123.github.io/Calculator-new-/calculator.html">
+                        <div class="calculator zoomimg"></div>
+                    </a>
+                    <a href="https://kevinlo123.github.io/energyDrink-site/index.html">
+                        <div class="energy zoomimg"></div>
+                    </a>
+                    <div class="projects zoomimg"></div>
+                    <div class="bio zoomimg"></div>
                 </div>
             </div>
         );
