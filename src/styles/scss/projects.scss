@@ -1,21 +1,25 @@
 .projects-container {
-    display: flex;
     background: #f2f2f2;
-    flex-direction: column;
-    padding: 4.5rem;
+    padding: 3.5rem;
     border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;    
 }
 
 #menu {
-    max-width: 1200px;
     text-align: center;
-    margin: auto;
 }
+
+.projects-top-row , .projects-bottom-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;  
+}
+
 .zoomimg {
-    display: inline-block;
+    display: flex;
     width: 275px;
     height: 245px;
-    padding: 0px 5px 0px 5px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -30,28 +34,44 @@
 
 .pomodoro {
     background-image: url("../../images/pomodoro.png");
+    margin-bottom: 2rem;
 }
 
 .calculator {
     background-image: url("../../images/calculator.png");
+    margin-bottom: 2rem;
 }
 
 .quoteApp {
     background-image: url("../../images/quoteApp.png");
+    margin-bottom: 2rem;
 }
 
 .rps {
     background-image: url("../../images/rps.png");
+    margin-bottom: 2rem;
 }
 
 .weatherApp {
-    background-image: url("../../images/weatherApp.png"); 
+    background-image: url("../../images/weather.png");
+    margin-bottom: 2rem;
 }
 
 .energy {
-    background-image: url("../../images/energy.png"); 
+    background-image: url("../../images/energy.png");
+    margin-bottom: 2rem;
 }
-        
+
+.form {
+    background-image: url("../../images/form.png");
+    margin-bottom: 2rem;
+}
+
+.yelp {
+    background-image: url("../../images/yelp.png");
+    margin-bottom: 2rem;    
+}
+
 .zoomimg:after {
     position: absolute;
     background-color: rgba(0,0,0,.55);
@@ -62,7 +82,7 @@
     color: #fff;
     top:  0;
     left: 0;
-    width: 285px;
+    width: 275px;
     height: 245px;
     opacity: 0;
     transition: opacity .5s linear;
@@ -81,3 +101,4 @@
     font-size: 2.5rem;
     margin: 0;
 }
+
