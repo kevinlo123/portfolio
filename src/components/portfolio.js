@@ -3,8 +3,9 @@ import Header from './header';
 import HeroBanner from './hero-banner'
 import About from './about';
 import Resume from './resume';
-import Projects from './projects';
 import resume from '../resume/RESUME.pdf';
+import Projects from './projects';
+import Skills from './skills';
 
 
 class Portfolio extends Component {
@@ -23,6 +24,9 @@ class Portfolio extends Component {
                 </section>
                 <section className="projects-wrapper">
                     <Projects />
+                </section>
+                <section className="skills-wrapper">
+                    <Skills />
                 </section>
             </div>
         );

@@ -27,7 +27,7 @@ class About extends Component {
                     </p>
                 </div>
                 <div className="about-future">
-                    <i className="fa fa-clock-o" aria-hidden="true"></i>
+                    <i className="far fa-hourglass"></i>
                     <h3 className="about-titles">Future</h3>
                     <p>
                         I’ve been told I can’t by many, but that has never stopped me from persevering 
