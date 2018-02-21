@@ -17,6 +17,7 @@ class Skills extends Component {
                     <i className="fab fa-js"></i>
                     <i className="fab fa-wordpress-simple"></i>
                     <i className="far fa-gem"></i>
+                    <i className="fab fa-github"></i>
                 </div>
             </div>
         );

@@ -18,39 +18,51 @@
 }
 
 .fa-html5, .fa-css3-alt,
-.fa-js, .fa-wordpress-simple, .fa-gem {
+.fa-js, .fa-wordpress-simple,
+.fa-github, .fa-gem {
     font-size: 5rem;
     font-weight: 100;
     color:#ff003b;
 }
 
-@media only screen and (max-width: 1000px){
-    .skills-icons-container{
-        width: 65%;
-    }
+.fa-html5, .fa-css3-alt, .fa-js{
+    font-size: 5.5rem;    
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1100px){
     .skills-icons-container{
         width: 75%;
     }
 }
 
-@media only screen and (max-width: 575px){
+@media only screen and (max-width: 1000px){
+    .skills-icons-container{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 768px){
     .skills-icons-container{
         width: 95%;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .skills-icons-container{
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 510px){
     .skills-icons-container{
         width: 10rem;
-        height: 25rem;
+        height: 35rem;
         flex-wrap: wrap;
     }
 
     .fa-html5, .fa-css3-alt,
-    .fa-js, .fa-wordpress-simple, .fa-gem {
+    .fa-js, .fa-wordpress-simple,
+    .fa-github, .fa-gem {
         font-size: 5.5rem;
     }
 }

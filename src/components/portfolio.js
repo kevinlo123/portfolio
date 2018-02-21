@@ -6,6 +6,8 @@ import Resume from './resume';
 import resume from '../resume/RESUME.pdf';
 import Projects from './projects';
 import Skills from './skills';
+import Contact from './contact';
+
 
 
 class Portfolio extends Component {
@@ -27,6 +29,9 @@ class Portfolio extends Component {
                 </section>
                 <section className="skills-wrapper">
                     <Skills />
+                </section>
+                <section className="contact-wrapper">
+                    <Contact />
                 </section>
             </div>
         );

@@ -26,7 +26,7 @@ class Header extends Component {
             if(scrollposition > 620){
                 navigation.classList.add("nav-background");
             }
-            else {
+            else{
                 navigation.classList.remove("nav-background");
             }
         });
