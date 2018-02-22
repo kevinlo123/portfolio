@@ -3,7 +3,7 @@ import Header from './header';
 import HeroBanner from './hero-banner'
 import About from './about';
 import Resume from './resume';
-import resume from '../resume/RESUME.pdf';
+import resume from '../resume/kevins-resume.pdf';
 import Projects from './projects';
 import Skills from './skills';
 import Contact from './contact';

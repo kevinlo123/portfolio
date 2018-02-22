@@ -145,6 +145,16 @@ a.fa-anchor::before {
     }
 }
 
+.show-nav-items::after{
+    content:"Designed and developed by Kevin Lopez";
+    display: block;
+    font-size: .78rem;
+    width: 120%;
+    position: relative;
+    top: 19rem;
+    left: -2rem
+}
+
 .mobile-nav-items {
     animation: slide-fade-in 1500ms cubic-bezier(0, 1, 0.58, 1) 300ms backwards;
     display: flex;
