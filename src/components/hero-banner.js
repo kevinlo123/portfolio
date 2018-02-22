@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import '../styles/scss/hero-banner.scss';
+import smoothScroll from 'smoothscroll';
 
 class HeroBanner extends Component {
-
-    scrollAbout() {
-        var elem = document.getElementsByClassName("row-container")[0]; 
-        elem.scrollTop = elem.scrollHeight;
-        alert("yo");
-        console.log("yp");
+    
+    handleClick(event) {
+        var exampleDestination = document.querySelector('.row-container');        
+        event.preventDefault();
+    
+        smoothScroll(exampleDestination);
     }
 
     render(){
@@ -15,7 +16,7 @@ class HeroBanner extends Component {
             <section className="hero-banner">
                 <h1 className="my-name">Kevin Lopez</h1>
                 <h2 className="dev-text">Front-End Web Developer</h2>
-                <div onClick={this.scrollAbout} className="arrow bounce">
+                <div onClick={this.handleClick} className="arrow bounce">
                     <a className="fa fa-arrow-down" href="#"></a>
                 </div>
             </section>
