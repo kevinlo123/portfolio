@@ -1,0 +1,65 @@
+.contact-container {
+    background: linear-gradient(rgba(255 , 0 , 59 , 0.90), rgba( 255 , 0 , 59 , 0.90));
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+
+.form-container {
+    height: 2rem;
+}
+
+.message{
+    display: block;
+    margin: 0 auto;
+    border-radius: 5rem;
+    background:white;
+    height: 3.5rem;
+    width: 14rem;
+    font-size: 1.2rem;
+    line-height: 3.5rem;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    text-decoration: none; 
+    color: #ff003b;       
+    transition: 200ms ease-in-out;         
+    &:hover {
+        transform: scale(1.1); 
+        background: #ff003b;
+        color: white;
+        border: 2px solid white;                   
+    }     
+}
+
+.contact-text , .find-me-text {
+    text-align: center;
+    font-size: 2.2rem;        
+    font-weight: 100;
+    margin-top: 0;
+}
+
+.find-me-text {
+    margin-top: 4rem;
+}
+
+.fa-linkedin-in, .fa-github-alt,
+.fa-twitter, .fa-codepen {
+    font-size: 4rem;
+    font-weight: 100;
+    margin: 0 3rem;
+    color: white !important;    
+}
+
+@media only screen and(max-width: 390px){
+    .fa-linkedin-in, .fa-github-alt,
+    .fa-twitter, .fa-codepen {
+        font-size: 3.7rem;
+    } 
+}
+
+@media only screen and(max-width: 370px){
+    .fa-linkedin-in, .fa-github-alt,
+    .fa-twitter, .fa-codepen {
+        font-size: 3.3rem;
+    } 
+}

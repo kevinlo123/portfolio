@@ -1,0 +1,50 @@
+.row-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    padding: 2.5rem;
+    font-size: 1.4rem;
+    font-weight: 100;
+    .about-projects , .about-experience, .about-future{
+        margin: 1rem 1rem;
+        width: 33.3%;
+        padding-top: 2.2rem;
+    }
+    .fa-desktop , .fa-graduation-cap ,.fa-hourglass{
+        font-size: 4rem;
+        font-weight: 100;
+        color:#ff003b;
+    }
+}
+
+.about-titles {
+    margin: 1rem 1rem;
+    font-weight: 100;
+    font-size: 2.2rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .row-container{
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .row-container{
+        flex-direction: column;
+        .about-projects , .about-experience, .about-future{
+            width: 80%;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .row-container{
+        .about-projects , .about-experience, .about-future{
+            width: 90%;
+        }
+    }
+}
